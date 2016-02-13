@@ -14,12 +14,12 @@ try:
 	from selenium.webdriver.support import expected_conditions as EC
 except Exception:
 	sys.exit('''Install dependencies first....
-		        Selenium and phantomjs
-		        =======================
-			    
-			    sudo pip2 install selenium 
-			    sudo apt-get update 
-                sudo apt-get install -y phantomjs
+				Selenium and phantomjs
+				=======================
+
+				sudo pip2 install selenium 
+				sudo apt-get update 
+				sudo apt-get install -y phantomjs
 
 			''')
 
