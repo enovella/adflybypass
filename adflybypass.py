@@ -8,18 +8,19 @@ v0.1 20160213   First version
 import sys
 
 try:
-	from selenium import webdriver
-	from selenium.webdriver.common.by import By
+	from selenium                      import webdriver
+	from selenium.webdriver.common.by  import By
 	from selenium.webdriver.support.ui import WebDriverWait
-	from selenium.webdriver.support import expected_conditions as EC
+	from selenium.webdriver.support    import expected_conditions as EC
 except Exception:
-	sys.exit('''Install dependencies first....
-				Selenium and phantomjs
-				=======================
+	sys.exit('''
+			Install dependencies first....
+			Selenium and phantomjs
+			=======================
 
-				sudo pip2 install selenium 
-				sudo apt-get update 
-				sudo apt-get install -y phantomjs
+			sudo pip2 install selenium 
+			sudo apt-get update 
+			sudo apt-get install -y phantomjs
 
 			''')
 
