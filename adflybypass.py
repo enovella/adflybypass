@@ -25,7 +25,7 @@ except Exception:
 			''')
 
 def usage():
-	sys.exit("Bypass adf.ly \n\tuse: %s http://adf.ly/badc0de\n\n")
+	sys.exit("Bypass adf.ly \n\tuse: %s http://adf.ly/badc0de\n\n" % (sys.argv[0]))
 
 
 if (len(sys.argv) != 2):
